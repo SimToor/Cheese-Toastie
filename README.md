@@ -84,13 +84,13 @@ h1, h2 {text-decoration-line: none; }
     </section>
     <section id="prep" onmouseover="prepHove()" onmouseout="prepNorma()">
         <h2>Preparation 
-            <i  class="fas fa-check"></i>
+            <i class="fas fa-check"></i>
         </h2>
         <ol>
           <li>Grill one side of the bread to desired taste and keep to one side to cool.</li>
           <li>Cut 3 or 4 slices of cheese.</li>
           <li>Place cheese on one of the un-toasted bread side and grill until melted (careful not to over-melt).</li>
-          <li>Remove the cheese toasty and season it with salt and pepper. Place the other toast on top to make the sandwich</li>
+          <li>Remove the cheese toastie and season it with salt and pepper. Place the other toast on top to make the. sandwich</li>
           <li>Enjoy with or without a dollop of Tomato Ketchup!</li>
           </ol>
     </section>
