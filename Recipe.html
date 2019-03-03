@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese on Toast</title>
+ <!--[provide compatibility for IE Browsers older than IE 9 with html5shiv (new html 5 semantic elements) ]>-->
+      <style>
+          body {font-family: monospace; background-color: antiquewhite;}
+          h1, h2 {text-decoration-line: underline ;
+          text-decoration-style: dotted; background-color:yellow; color:black;}
+          #footer {position: fixed;
+          left:0;
+          bottom:0;
+          width:100%;
+          background-color: yellow;
+          color: black;
+          text-align:center;
+          padding:15px;
+          border-bottom-right-radius: 100%;
+          border-bottom-left-radius: 100%;}
+          .caption {font-size:small;margin-left: 100px;}
+           .toast {margin-left: 100px; border-style:dotted;transition: transform .2s;}
+          .toast:hover {
+              transform: scale(1.5);} /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+          .toast:hover {
+          -ms-transform: scale(1.5); /* IE 9 */
+          -webkit-transform: scale(1.5); /* Safari 3-8 */
+          transform: scale(1.5); }
+         
+      
+      </style>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+  </head>
+  <body>
+     <header>
+        <h1>My Recipe: Cheese on Toast</h1>
+        <img class="toast" src="https://i.postimg.cc/j2YGqT45/ola-mishchenko-606865-unsplash.jpg">
+        <p class="caption"><strong>Cheese on toast is very tasty and especially good!</strong> </p>
+    </header>
+    <section>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 slice of brown bread (<em>gluten free</em>)</li>
+          <li>Cheese (<em>lactose free</em>)</li>
+          <li>Tomato Ketchup</li>
+          <li>Grain of Salt</li>
+          <li>Sprinkle of black grounded pepper</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Preparation</h2>
+        <ol>
+          <li>Grill one side of the bread to desired taste and keep to one side to cool.</li>
+          <li>Cut 3 or 4 slices of cheese.</li>
+          <li>Place cheese on top of the toast and grill until melted (careful not to over-melt).</li>
+          <li>Remove the cheese toasty and season it with salt and pepper.</li>
+          <li>Enjoy with or without a dollop of Tomato Ketchup!</li>
+          <li>Simple !</li>
+          </ol>
+    </section>
+    <footer id="footer">
+       Sim Toor &copy; 2019
+    </footer>
+  </body>
+</html>
